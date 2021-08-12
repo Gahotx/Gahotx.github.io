@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gahotx.cn/categories/index.html</loc>
+    <loc>https://gahotx.cn/bber/index.html</loc>
     
-    <lastmod>2021-08-08</lastmod>
+    <lastmod>2021-08-12</lastmod>
     
   </url>
   
@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>https://gahotx.cn/artitalk/index.html</loc>
+    <loc>https://gahotx.cn/categories/index.html</loc>
     
     <lastmod>2021-08-08</lastmod>
     
@@ -46,7 +46,7 @@
 
   <url>
     <loc>https://gahotx.cn/</loc>
-    <lastmod>2021-08-11</lastmod>
+    <lastmod>2021-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -54,7 +54,7 @@
   
   <url>
     <loc>https://gahotx.cn/tags/web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2021-08-11</lastmod>
+    <lastmod>2021-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -63,7 +63,7 @@
   
   <url>
     <loc>https://gahotx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-08-11</lastmod>
+    <lastmod>2021-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
