@@ -1,1 +1,75 @@
-#vcomment button{padding:.3rem .8rem;border-color:#fff;background-color:#e58a8a;color:#fff;font-size:.7rem;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;-ms-transition:all .3s;transition:all .3s}.v[data-class=v] .vcards .vcard .vh .vmeta .vat{float:right;padding:.2rem .6rem;border-radius:5px;background-color:var(--btn-bg);color:var(--btn-color);font-size:.7rem;transition:all .3s}.card-info-avatar:hover{background:url(https://ae01.alicdn.com/kf/H3342af90d24b4d62b9bbfec9688ccc25M.gif)}#nav .menus_items .menus_item .menus_item_child li a:hover{transform:translateX(.3rem)}#nav .menus_items .menus_item .menus_item_child{border-radius:5px}#nav .menus_items .menus_item .menus_item_child li:last-child{border-radius:0 0 5px 5px}#nav .menus_items .menus_item .menus_item_child li:first-child{border-radius:5px 5px 0 0}#post-info #post-meta,#post>#post-info .post-title{text-align:center}#footer-wrap{line-height:2.5;padding:1.5rem 1rem}body{font-family:"Linux Biolinum","Noto Serif SC",Helvetica,Arial,Menlo,Monaco,monospace,sans-serif}#nav #site-name{font-family:'Comic Sans MS',sans-serif;font-size:21px}#nav .site-page{font-family:'Source Sans Pro',"Noto Serif SC",Helvetica,Arial,Menlo,Monaco,monospace,sans-serif;font-size:.7rem}#page-header.full_page #site-title{font-family:"Segoe Script","Ink Free","Segoe Print"}
+/* Valine样式魔改 */
+#vcomment button {
+    padding: 0.3rem 0.8rem;
+    border-color: #fff;
+    background-color: #e58a8a;
+    color: #fff;
+    font-size: 0.7rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.v[data-class=v] .vcards .vcard .vh .vmeta .vat {
+    float: right;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    font-size: 0.7rem;
+    transition: all 0.3s;
+}
+
+/* 作者卡片栏添加一个彩花背景 */
+.card-info-avatar:hover {
+    background: url(https://ae01.alicdn.com/kf/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
+}
+
+/* 菜单栏子标签添加右移动态效果 */
+#nav .menus_items .menus_item .menus_item_child li a:hover {
+    transform: translateX(.3rem);
+}
+
+#nav .menus_items .menus_item .menus_item_child {
+    border-radius: 5px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+/*文章标题居中*/
+#post-info #post-meta, #post>#post-info .post-title {
+    text-align: center;
+}
+
+/*页脚美化*/
+#footer-wrap {
+    line-height: 2.5;
+    padding: 1.5rem 1rem;
+}
+
+/* 全局自定义思源宋体字体 */
+body {
+	font-family: "Linux Biolinum", "Noto Serif SC", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+}	
+
+#nav #site-name {
+	font-family: 'Comic Sans MS',sans-serif;
+	font-size: 21px;
+}
+
+#nav .site-page {
+	font-family: 'Source Sans Pro',"Noto Serif SC",Helvetica,Arial,Menlo,Monaco,monospace,sans-serif;
+	font-size: 0.7rem;
+}
+
+#page-header.full_page #site-title {
+	font-family: "Segoe Script","Ink Free","Segoe Print";
+}
